@@ -6,7 +6,7 @@
  * @package Qtyguard
  */
 
-defined( 'ABSPATH' ) || defined( 'QTYGUARD_TESTING' ) || exit;
+defined( 'ABSPATH' ) || exit;
 
 /**
  * A rule is an array: [ 'min' => int, 'max' => int, 'step' => int ]. 0 means "not set".

@@ -3,7 +3,7 @@
  * Plugin Name:       Qtyguard
  * Plugin URI:        https://github.com/ataliweb/qtyguard
  * Description:       Minimum, maximum and multiple-of quantity rules per product, per variation, per category and for the whole order. Works with the classic and the block cart and checkout.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Requires Plugins:  woocommerce
@@ -20,7 +20,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'QTYGUARD_VERSION', '1.0.1' );
+define( 'QTYGUARD_VERSION', '1.0.2' );
 define( 'QTYGUARD_FILE', __FILE__ );
 define( 'QTYGUARD_DIR', plugin_dir_path( __FILE__ ) );
 
@@ -40,11 +40,25 @@ add_action(
 	}
 );
 
+// Use the bundled translation when WordPress has no language pack for this plugin yet.
+add_filter(
+	'load_textdomain_mofile',
+	static function ( $mofile, $domain ) {
+		if ( 'qtyguard' === $domain && ! is_readable( $mofile ) ) {
+			$bundled = QTYGUARD_DIR . 'languages/qtyguard-' . determine_locale() . '.mo';
+			if ( is_readable( $bundled ) ) {
+				return $bundled;
+			}
+		}
+		return $mofile;
+	},
+	10,
+	2
+);
+
 add_action(
 	'plugins_loaded',
 	static function () {
-		load_plugin_textdomain( 'qtyguard', false, dirname( plugin_basename( QTYGUARD_FILE ) ) . '/languages' );
-
 		if ( ! class_exists( 'WooCommerce' ) ) {
 			add_action(
 				'admin_notices',

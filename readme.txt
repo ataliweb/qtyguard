@@ -5,7 +5,7 @@ Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
 Requires Plugins: woocommerce
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,9 @@ The most restrictive values are used: the larger minimum, the smaller maximum, t
 Yes. Quantity limits are exposed to the block cart, and the order is checked before payment.
 
 == Changelog ==
+
+= 1.0.2 =
+* Plugin Check fixes: direct access protection, no manual text domain loading.
 
 = 1.0.1 =
 * Documentation and metadata fixes for the wordpress.org directory.

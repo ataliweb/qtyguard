@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Plugin Check fixes: direct access protection in every PHP file, no manual `load_plugin_textdomain()` call (bundled Turkish translation still loads through the `load_textdomain_mofile` filter).
+
 ## 1.0.1
 - Plugin name shortened to "Qtyguard" so the directory slug matches the text domain; "Tested up to" updated.
 

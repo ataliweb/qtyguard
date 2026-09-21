@@ -5,7 +5,7 @@
  * @package Qtyguard
  */
 
-define( 'QTYGUARD_TESTING', true );
+define( 'ABSPATH', __DIR__ . '/' );
 require dirname( __DIR__ ) . '/includes/class-rules.php';
 
 $failures = 0;
