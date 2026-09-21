@@ -1,15 +1,15 @@
-=== Qtyguard - Quantity Rules for WooCommerce ===
+=== Qtyguard ===
 Contributors: ataliweb
 Tags: woocommerce, minimum quantity, maximum quantity, quantity step, order limits
 Requires at least: 5.8
-Tested up to: 6.6
+Tested up to: 7.1
 Requires PHP: 7.4
 Requires Plugins: woocommerce
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Minimum, maximum and multiple-of quantity rules per product, variation, category and for the whole order.
+Minimum, maximum and multiple-of quantity rules for WooCommerce, per product, variation, category and for the whole order.
 
 == Description ==
 
@@ -43,6 +43,9 @@ The most restrictive values are used: the larger minimum, the smaller maximum, t
 Yes. Quantity limits are exposed to the block cart, and the order is checked before payment.
 
 == Changelog ==
+
+= 1.0.1 =
+* Documentation and metadata fixes for the wordpress.org directory.
 
 = 1.0.0 =
 * First release.

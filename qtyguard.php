@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name:       Qtyguard - Quantity Rules for WooCommerce
+ * Plugin Name:       Qtyguard
  * Plugin URI:        https://github.com/ataliweb/qtyguard
  * Description:       Minimum, maximum and multiple-of quantity rules per product, per variation, per category and for the whole order. Works with the classic and the block cart and checkout.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Requires Plugins:  woocommerce
@@ -20,7 +20,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'QTYGUARD_VERSION', '1.0.0' );
+define( 'QTYGUARD_VERSION', '1.0.1' );
 define( 'QTYGUARD_FILE', __FILE__ );
 define( 'QTYGUARD_DIR', plugin_dir_path( __FILE__ ) );
 
