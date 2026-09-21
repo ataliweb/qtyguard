@@ -1,0 +1,8 @@
+.git
+.github
+.gitattributes
+.gitignore
+.distignore
+tests
+README.md
+CHANGELOG.md

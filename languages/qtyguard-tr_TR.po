@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qtyguard 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/ataliweb/qtyguard/issues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Qtyguard needs WooCommerce to be installed and active."
+msgstr "Qtyguard'ın çalışması için WooCommerce'in kurulu ve etkin olması gerekir."
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Minimum quantity"
+msgstr "Minimum adet"
+
+msgid "Smallest quantity a customer can buy. 0 = no minimum."
+msgstr "Bir müşterinin alabileceği en düşük adet. 0 = alt sınır yok."
+
+msgid "Maximum quantity"
+msgstr "Maksimum adet"
+
+msgid "Largest quantity per order. 0 = no maximum."
+msgstr "Sipariş başına en yüksek adet. 0 = üst sınır yok."
+
+msgid "Sold in multiples of"
+msgstr "Şunun katları olarak satılır"
+
+msgid "Quantity must be a multiple of this number (for example 6 for a box of six). 0 = any."
+msgstr "Adet bu sayının katı olmalıdır (örneğin altılı kutu için 6). 0 = herhangi bir adet."
+
+msgid "Count variations together"
+msgstr "Varyasyonları birlikte say"
+
+msgid "Variable products: apply the rule to the combined quantity of all variations instead of each variation on its own."
+msgstr "Varyasyonlu ürünler: kuralı her varyasyona ayrı ayrı değil, tüm varyasyonların toplam adedine uygula."
+
+msgid "Min quantity"
+msgstr "Min. adet"
+
+msgid "Max quantity"
+msgstr "Maks. adet"
+
+msgid "Multiples of"
+msgstr "Katları"
+
+msgid "Quantity rules for every product in this category. A rule set on the product itself takes priority. 0 = not set."
+msgstr "Bu kategorideki her ürün için adet kuralları. Ürünün kendisinde tanımlı kural önceliklidir. 0 = ayarlanmamış."
+
+msgid "Applies to every product in this category. A rule set on the product itself takes priority. 0 = not set."
+msgstr "Bu kategorideki her ürüne uygulanır. Ürünün kendisinde tanımlı kural önceliklidir. 0 = ayarlanmamış."
+
+#, php-format
+msgid "Minimum: %d"
+msgstr "Minimum: %d"
+
+#, php-format
+msgid "Maximum: %d"
+msgstr "Maksimum: %d"
+
+#, php-format
+msgid "Multiples of %d"
+msgstr "%d ve katları"
+
+msgid "The minimum quantity for \"{product}\" is {min} (you have {qty})."
+msgstr "\"{product}\" için minimum adet {min} (şu an {qty})."
+
+msgid "The maximum quantity for \"{product}\" is {max} (you have {qty})."
+msgstr "\"{product}\" için maksimum adet {max} (şu an {qty})."
+
+msgid "\"{product}\" can only be bought in multiples of {step} (you have {qty})."
+msgstr "\"{product}\" yalnızca {step} ve katları olarak satın alınabilir (şu an {qty})."
+
+msgid "Your order needs at least {min} items (you have {total})."
+msgstr "Siparişinizde en az {min} ürün olmalı (şu an {total})."
+
+msgid "Your order can contain at most {max} items (you have {total})."
+msgstr "Siparişiniz en fazla {max} ürün içerebilir (şu an {total})."
+
+msgid "The minimum order amount is {amount} (your subtotal is {subtotal})."
+msgstr "Minimum sipariş tutarı {amount} (ara toplamınız {subtotal})."
+
+msgid "Quantity Rules"
+msgstr "Adet Kuralları"
+
+msgid "Below minimum"
+msgstr "Minimumun altında"
+
+msgid "Above maximum"
+msgstr "Maksimumun üstünde"
+
+msgid "Not a valid multiple"
+msgstr "Geçerli bir kat değil"
+
+msgid "Too few items in cart"
+msgstr "Sepette çok az ürün"
+
+msgid "Too many items in cart"
+msgstr "Sepette çok fazla ürün"
+
+msgid "Order amount too low"
+msgstr "Sipariş tutarı çok düşük"
+
+msgid "Rules are applied in this order: variation, product, product category, then the store-wide defaults below. Leave a value at 0 for \"no limit\"."
+msgstr "Kurallar şu sırayla uygulanır: varyasyon, ürün, ürün kategorisi, ardından aşağıdaki mağaza geneli varsayılanlar. Sınır istemiyorsanız değeri 0 bırakın."
+
+msgid "Store-wide defaults (per product)"
+msgstr "Mağaza geneli varsayılanlar (ürün başına)"
+
+msgid "Whole order limits"
+msgstr "Tüm sipariş sınırları"
+
+msgid "Minimum items in cart"
+msgstr "Sepette minimum ürün sayısı"
+
+msgid "Maximum items in cart"
+msgstr "Sepette maksimum ürün sayısı"
+
+msgid "Minimum order amount (subtotal)"
+msgstr "Minimum sipariş tutarı (ara toplam)"
+
+msgid "Exceptions and display"
+msgstr "İstisnalar ve görünüm"
+
+msgid "Exempt roles"
+msgstr "Muaf roller"
+
+msgid "Users with these roles ignore all quantity rules (for example wholesale customers)."
+msgstr "Bu rollerdeki kullanıcılar tüm adet kurallarından muaf olur (örneğin toptan müşteriler)."
+
+msgid "Product page note"
+msgstr "Ürün sayfası notu"
+
+msgid "Show the rule (for example \"Minimum: 3 · Multiples of 3\") on the product page"
+msgstr "Kuralı ürün sayfasında göster (örneğin \"Minimum: 3 · 3 ve katları\")"
+
+msgid "Messages"
+msgstr "Mesajlar"
+
+msgid "Leave a field unchanged to use the default text. Placeholders: {product} {qty} {min} {max} {step} {total} {amount} {subtotal}"
+msgstr "Varsayılan metni kullanmak için alanı değiştirmeyin. Yer tutucular: {product} {qty} {min} {max} {step} {total} {amount} {subtotal}"
